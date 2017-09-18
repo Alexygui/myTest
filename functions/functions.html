@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    (function () {
+        var name = "";
+        Person = function (value) {
+            name = value;
+        };
+        Person.prototype.getName = function () {
+            return name;
+        };
+        Person.prototype.setName = function (value) {
+            name = value;
+        };
+    })();
+    var person1 = new Person("Nicholas");
+    alert(person1.getName());
+    person1.setName("Greg");
+    alert(person1.getName());
+
+    var person2 = new Person("Mike");
+    alert(person1.getName());
+    alert(person2.getName());
+</script>
+</body>
+</html>

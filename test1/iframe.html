@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jquery-1.8.3.js"></script>
+</head>
+<body>
+<div><h1>mainFrame</h1></div>
+<ul></ul>
+<iframe src="iframe1.html" name="if1" frameborder="0">
+</iframe>
+<script>
+    $('h1').click(function () {
+        if (frames['if1'].showButton && typeof frames['if1'].showButton === 'function') {
+            var arr = frames['if1'].showButton();
+            arr.map(function (val) {
+                console.log(val);
+                appendUl(val);
+            })
+        }
+    });
+
+    function appendUl(val) {
+        $('ul').append('<li id="' + val.id + '">' + val.text + '</li>');
+        $('#' + val.id).bind('click', function () {
+            frames['if1'][val.id + 'Click']();
+        })
+    }
+</script>
+</body>
+</html>

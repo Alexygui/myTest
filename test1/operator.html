@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="operator.js"></script>
+</head>
+<body>
+<div id="div1"></div>
+</body>
+<script>
+    (function () {
+        var model = new Model();
+        var div1 = document.getElementById('div1');
+        model.watch(function (value) {
+            div1.innerHTML = value;
+        });
+        model.set('hello, this is a div');
+    })();
+</script>
+</html>

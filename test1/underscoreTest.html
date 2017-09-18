@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="../js/underscore-1.8.3.js"></script>
+    <!--<script type="text/javascript" src="underscoreTest.js"></script>-->
+</head>
+<script type="text/template" id="tpl">
+    <tr>
+        <td><%=firstName%></td>
+        <td><%-lastName%></td>
+        <td><%=city%></td>
+    </tr>
+</script>
+<script type="text/template" id="tplList">
+    <%_.each(list,function(model){%>
+    <tr>
+        <td><%=model.firstName%></td>
+        <td><%-model.lastName%></td>
+        <td><%=model.city%></td>
+    </tr>
+    <%});%>
+</script>
+
+<script type="text/template" id="tpl2">
+    <% _.each(list, function(n){ %>
+    <p>姓名：<%= n.name %>,年龄：<%= n.age %>,性别：<%= n.sex %></p>
+    <% }); %>
+</script>
+<body>
+<script>
+    var list = [
+        {
+            name: 'mike',
+            age: 18,
+            sex: '男'
+        },
+        {
+            name: 'nina',
+            age: 20,
+            sex: '女'
+        },
+        {
+            name: 'elle',
+            age: 26,
+            sex: '女'
+        }
+    ];
+    var a = _.template($('#tpl2').html());
+    $('body').html(a);
+</script>
+</body>
+</html>

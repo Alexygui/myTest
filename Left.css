@@ -1,0 +1,229 @@
+/* 左侧树、菜单样式*/
+
+.leftSide {
+	float: left;
+	width: 220px;
+	border-right: 1px solid #cecece;
+	background: #f0f0f0;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+}
+
+.toggleLeft {
+	width: 8px;
+	height: 36px;
+	background: url('../image/hidden.gif') no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 208px;
+	cursor: pointer
+}
+
+.leftClosed {
+	width: 8px;
+	height: 100%;
+	border-right: 1px solid #d1d1d1;
+	background: #f9f9f9 url('../image/launched.gif') no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 221px;
+	cursor: pointer
+}
+
+.leftSide h2 {
+	width: 100%;
+	height: 39px;
+	background: #e5e5e5;
+	border-bottom: 1px solid #c1c8d2;
+}
+
+.leftSide h2 p {
+	float: left;
+	color: #333333;
+	font-size: 14px;
+	line-height: 38px;
+	text-indent: 10px;
+}
+
+.leftSide h2 span {
+	float: right;
+	width: 14px;
+	height: 38px;
+	border-left: 1px solid #d1d1d1;
+}
+.leftSide h2 a.suo {
+	float: right;
+	width: 16px;
+	height: 16px;
+	margin: 12px 3px 0 0;
+	outline: none;
+}
+.leftBox {
+	clear: both;
+	width: 100%;
+	overflow: auto;
+	position: relative;
+}
+
+
+/*右侧框*/
+
+.rightContent {
+	float: right;
+	height: 100%;
+	background: #fff;
+}
+
+
+/*首页统计TAB框*/
+
+.rightboxtwo {
+	float: left;
+	width: 49.2%;
+	height: 240px;
+	border: 1px solid #d8d8d8;
+	background: #fff;
+	margin-top: 10px;
+}
+
+
+/*首页工程地图框*/
+
+.mapbox {
+	padding: 5px;
+}
+
+h1 {
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 80px;
+}
+
+h1 a {
+	color: #c12c42;
+	font-size: 16px;
+}
+
+.accordion {
+	width: 100%;
+	background: #FFF;
+}
+
+.accordion .link {
+	cursor: pointer;
+	display: block;
+	padding: 9px 15px 9px 38px;
+	color: #1e5494;
+	color: #000;
+	font-size: 16px;
+	font-weight: 700;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #d8d8d8;
+	position: relative;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	background: #f0f0f0;
+	text-indent: 0px;
+	font-weight: normal;
+}
+
+.accordion .link a {
+	color: #000;
+}
+
+.accordion li:last-child .link {
+	border-bottom: 1px solid #d8d8d8
+}
+
+.accordion li i {
+	position: absolute;
+	top: 15px;
+	left: 12px;
+	font-size: 18px;
+	color: #595959;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+	right: 12px;
+	left: auto;
+	width: 10px;
+	height: 5px;
+	font-size: 12px;
+	background: url(../image/Arrow.png) no-repeat;
+}
+
+.accordion li.open .link {
+	color: #0066cc;
+}
+
+.accordion li.open i {
+	color: #b63b4d;
+}
+
+.accordion li.open i.fa-chevron-down {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.accordion li i.fa-paint-brush img,
+.fa-globe img,
+.fa-code img,
+.fa-mobile img {
+	margin-top: -5px;
+}
+
+
+/** * Submenu -----------------------------*/
+
+.submenu {
+	display: none;
+	background: #f9f9f9;
+	font-size: 14px;
+	border-bottom: 1px solid #d8d8d8;
+    /*overflow: auto;*/
+}
+
+.submenu li {
+	border-bottom: 0px solid #ebebeb;
+}
+
+.submenu a {
+	display: block;
+	text-decoration: none;
+	background: url(../image/039.png) 32px center no-repeat;
+	color: #393939;
+	padding: 9px 10px;
+	padding-left: 55px;
+	/*
+ 	-webkit-transition: all 0.25s ease;
+ 	-o-transition: all 0.25s ease;
+ 	transition: all 0.25s ease; */
+	border-left: 4px solid #f0f0f0;
+}
+
+.submenu a:hover {
+	background: #dddddd url(../image/039.png) 32px center no-repeat;
+	color: #393939;
+	border-left: 4px solid #3b83e1;
+}
+
+.submenu .xinzeng a {	
+	background: url(../image/xinzeng.png) 32px center no-repeat;
+}
+.submenu .xinzeng a:hover {
+	background: #dddddd url(../image/xinzeng.png) 32px center no-repeat;
+}
+.submenuchecked{
+	background: #dddddd url(../image/039.png) 32px center no-repeat;
+	color: #393939;
+	border-left: 4px solid #3b83e1;
+}

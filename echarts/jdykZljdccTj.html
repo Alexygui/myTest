@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/echarts.js"></script>
+</head>
+<body>
+<div id="main" style="width: 1200px;height:600px;"></div>
+<script type="text/javascript">
+    var zlccPic = 'image://pics/yellowBoy.png';
+    var zxccPic = 'image://pics/citie.png';
+    //    var spirit = 'diamond';
+    //数据
+    var nameData = ['何兵', '刘权', '杨晓耕', '张红彬', '蒋飞', '严珠', '王俊'];
+    var zlccData = [];
+    var zxccData = [];
+    var pieData = [];
+    //质量抽查次数
+    zlccData[1701] = [15, 4, 35, 9, 15, 11, 2];
+    zlccData[1702] = [5, 1, 7, 7, 1, 2, 1];
+    zlccData[1703] = [24, 5, 18, 15, 9, 30, 5];
+    zlccData[1704] = [18, 12, 12, 15, 13, 11, 4];
+    //专项抽查次数
+    zxccData[1701] = [50, 52, 75, 63, 35, 34, 38];
+    zxccData[1702] = [27, 7, 22, 10, 5, 0, 21];
+    zxccData[1703] = [149, 68, 107, 72, 86, 176, 108];
+    zxccData[1704] = [72, 52, 79, 60, 48, 47, 80];
+
+    function dataFormatter(num) {
+        var tempData = [];
+        for (var i = 0; i < nameData.length; i++) {
+            tempData[i] = {name: nameData[i], value: zlccData[num][i] + zxccData[num][i]};
+        }
+        return tempData;
+    }
+    //设置饼图的数据数组的值
+    for (var x in zlccData) {
+        pieData[x] = dataFormatter(x);
+    }
+
+    // 基于准备好的dom，初始化ECharts实例
+    var myChart = echarts.init(document.getElementById('main'));
+    option = {
+        baseOption: {
+            timeline: {
+                // y: 0,
+                axisType: 'category',
+                // realtime: false,
+                // loop: false,
+                autoPlay: true,
+                // currentIndex: 2,
+                playInterval: 1500,
+                // controlStyle: {
+                //     position: 'left'
+                // },
+                data: [
+                    '2017年1月',
+                    {
+                        value: '2017年2月',
+                        tooltip: {
+                            formatter: '{b} 抽查次数最少的月份'
+                        },
+                        symbol: 'diamond',
+                        symbolSize: 16
+                    },
+                    '2017年3月', '2017年4月'
+                ]
+            },
+            backgroundColor:'#ccc',
+            graphic: [
+                {
+                    type: 'image',
+                    id: 'logo',
+                    right: 40,
+                    top: 40,
+                    z: 1,
+                    bounding: 'raw',
+                    origin: [75, 75],
+                    style: {
+                        image: 'pics/favicon.png',
+                        width: 150,
+                        height: 150,
+                        opacity: 0.4
+                    }
+                },
+                {
+                    type: 'group',
+                    rotation: Math.PI / 4,
+                    bounding: 'raw',
+                    right: 110,
+                    bottom: 110,
+                    z: 100,
+                    children: [
+                        {
+                            type: 'rect',
+                            left: 'center',
+                            top: 'center',
+                            z: 100,
+                            shape: {
+                                width: 400,
+                                height: 50
+                            },
+                            style: {
+                                fill: 'rgba(0,0,0,0.2)'
+                            }
+                        },
+                        {
+                            type: 'text',
+                            left: 'center',
+                            top: 'center',
+                            z: 100,
+                            style: {
+                                fill: '#fff',
+                                text: '瑞信软件出品',
+                                font: 'bold 26px Microsoft YaHei'
+                            }
+                        }
+                    ]
+                }
+            ],
+
+            title: {
+                subtext: '数据来自：芜湖市住房与建设委员会'
+            },
+            tooltip: {},
+            legend: {
+                x: 'right',
+                data: ['质量抽查次数', '专项抽查次数']
+            },
+//            calculable: true,
+            grid: {
+                top: 80,
+                bottom: 100
+            },
+            xAxis: [
+                {
+                    'type': 'category',
+                    'axisLabel': {'interval': 0},
+                    'data': nameData,
+                    splitLine: {show: false}
+                }
+            ],
+            animationEasing: 'elasticOut',
+            yAxis: [
+                {
+                    type: 'value',
+                    name: '次数',
+                    max: 200
+                }
+            ],
+            series: [
+                {
+                    barGap: '10%',
+                    type: 'pictorialBar',
+                    name: '质量抽查次数',
+                    symbol: zlccPic,
+//                    symbolRepeat: true,
+                    hoverAnimation: true,
+                    label: {
+                        normal: {
+                            show: true,
+                            position: 'top',
+                            formatter: '{c} 次',
+                            textStyle: {
+                                fontSize: 16,
+                                color: '#333'
+                            }
+                        }
+                    },
+                    markLine: {
+                        symbol: ['none', 'none'],
+                        label: {
+                            normal: {show: false}
+                        },
+                        lineStyle: {
+                            normal: {
+                                color: '#e54035',
+                                width: 2
+                            }
+                        }
+                    }
+                },
+                {
+                    barGap: '10%',
+                    type: 'pictorialBar',
+                    name: '专项抽查次数',
+                    symbolMargin: '-25%',
+                    symbol: zxccPic,
+                    symbolSize:['100%','40%'],
+                    symbolRepeat: true,
+                    hoverAnimation: true,
+                    label: {
+                        normal: {
+                            show: true,
+                            position: 'top',
+                            formatter: '{c} 次',
+                            textStyle: {
+                                fontSize: 16,
+                                color: '#333'
+                            }
+                        }
+                    },
+                    markLine: {
+                        symbol: ['none', 'none'],
+                        label: {
+                            normal: {show: false}
+                        },
+                        lineStyle: {
+                            normal: {
+                                color: '#e54035',
+                                width: 2
+                            }
+                        },
+                        data: [{
+                            yAxis: 8844
+                        }]
+                    }
+                },
+//                {
+//                    name: '监督抽查次数',
+//                    type: 'bar'
+//                },
+//                {name: '专项抽查次数', type: 'bar'},
+                {
+                    name: '次数占比',
+                    type: 'pie',
+                    center: ['25%', '25%'],
+                    radius: '28%',
+                    roseType: 'area'
+                }
+            ]
+        },
+        options: [
+            {
+                title: {text: '2017年1月监督一科监督抽查次数'},
+                series: [
+                    {data: zlccData[1701]},
+                    {data: zxccData[1701]},
+                    {
+                        data: pieData[1701]
+                    }
+                ]
+            },
+            {
+                title: {text: '2017年2月监督一科监督抽查次数'},
+                series: [
+                    {data: zlccData[1702]},
+                    {data: zxccData[1702]},
+                    {
+                        data: pieData[1702]
+                    }
+                ]
+            },
+            {
+                title: {text: '2017年3月监督一科监督抽查次数'},
+                series: [
+                    {data: zlccData[1703]},
+                    {data: zxccData[1703]},
+                    {
+                        data: pieData[1703]
+                    }
+                ]
+            },
+            {
+                title: {text: '2017年4月监督一科监督抽查次数'},
+                series: [
+                    {data: zlccData[1704]},
+                    {data: zxccData[1704]},
+                    {
+                        data: pieData[1704]
+                    }
+                ]
+            }
+        ]
+    };
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+
+    var rotation = 0;
+    setInterval(function () {
+        myChart.setOption({
+            graphic: {
+                id: 'logo',
+                rotation: (rotation += Math.PI / 360) % (Math.PI * 2)
+            }
+        });
+    }, 30);
+</script>
+</body>
+</html>
