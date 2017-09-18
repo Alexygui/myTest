@@ -1,3 +1,3 @@
 # myTest
-some frontend tests
+some frontend tests.
 yes, it is.
