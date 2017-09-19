@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="http://api.tianditu.com/js/maps.js"></script>
+    <script type="text/javascript" src="mapTT.js"></script>
+</head>
+<body onLoad="onLoad()">
+<div id="mapDiv" style="position:absolute;width:600px; height:500px"></div>
+<div style="position:absolute;left:620px;">
+    <input type="button" value="开 启" onClick="markerTool.open();"/>
+    <input type="button" value="关 闭" onClick="markerTool.close();"/>
+    <input type="button" value="编 辑" onClick="editMarker();"/>
+    <ul>
+        <li>本示例演示如何在地图上用鼠标标点。</li>
+        <p><a href="http://lbs.tianditu.com/api-new/examples.html">返回所有范例列表</a></p>
+    </ul>
+</div>
+</body>
+</html>
