@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<script src="../js/require-2.3.3.js"></script>-->
+    <!--<script src="../js/underscore-1.8.3.js"></script>-->
+    <script src="underscore_myTest.js"></script>
+</head>
+<body>
+
+<script>
+    debugger;
+    var stooges = [{name: 'curly', age: 25}, {name: 'moe', age: 21}, {name: 'larry', age: 23}];
+    _.map(stooges, _.iteratee('age'));
+    console.log(_.iteratee('age'));
+</script>
+</body>
+</html>
