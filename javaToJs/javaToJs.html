@@ -245,6 +245,12 @@
       private Sfyx_st sfyx_st;
 
       /**
+      * 合同备案单位工程test22222
+      */
+      @OneToMany(targetEntity = Htbadwgcgl2222.class, mappedBy = "htba_id", fetch = FetchType.LAZY, cascade = {CascadeType.ALL})
+      @Where(clause = " sfyx_st=1 ")
+      private List<Htbadwgcgl22222> dwgcglList2222;
+      /**
       * 施工总承包单位资质
       */
       @Column(name = "SGZCBDWZZ")
