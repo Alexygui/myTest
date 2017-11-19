@@ -2,23 +2,34 @@
  * Created by gui on 2017/11/18.
  */
 $(function () {
-  $('#configTitle').text('123');
+  //回车事件
+  regEnter(function () {
+    $('#beanBtn').click();
+  });
+
+  $('#configTitle').text('属性');
 
   $('#jsTree').click(function (e) {
     let $t = $(e.target);
-    $('#configTitle').val(123);
+    if ($t.attr('id') === 'jsTree') return;
+    $('#configTitle').html($t.text());
+    // debugger;
   });
 
-  $('#javaBean').change(function () {
+  $('#beanBtn').click(function () {
+    var beanVal = $('#javaBean').val();
+    if (null == beanVal || '' === beanVal) return;
     //截取javaBean中可以用来生成json数据的有效数据，即从类的声明到所有的私有属性
     //public class 类名 以后的字符串
-    let javaBean = $('#javaBean').val().match(/import.*? public class .*/gi)[0];
+    let javaBeanClass = beanVal.match(/import.*? public class .*/gi)[0];
+    let javaBean = beanVal.match(/public class .*/gi)[0];
     // console.log(javaBean);
     // debugger;
 
     //获取className；public class 类名
-    let classStr = javaBean.match(/\/\*\*.*?\*\/.*?public class \w+/)[0];
+    let classStr = javaBeanClass.match(/(\/\*\*.*?\*\/.*?public class \w+)|(\/\/.*?public class \w+)/)[0];
     let classArr = classStr.split(' ');
+    //匹配字符和中文组成的注释内容
     let classComment = classStr.match(/[\w\u4e00-\u9fa5]+/)[0];
     let className = classArr[classArr.length - 1];
     let ModelName = 'Model' + className;
@@ -60,6 +71,7 @@ $(function () {
 
 
     //将有效数据截取为json中的key及其注释在同一条字符串中，获取的值组成数组
+    // 不包含声明为List的字段
     //(/** ... */ private ... ;)或者(// ... private ... ;)
     let items = javaBean.match(/(\/\*\*.*?\*\/.*?private \w+ \w+;)|(\/\/.*?private \w+ \w+;)/gi);
     // console.log(items);
@@ -177,7 +189,10 @@ $(function () {
   });
 
   //测试用
-  $('#javaBean').val($('#tpl').html()).trigger('change');
+  $('#testBtn').click(function () {
+    $('#javaBean').val($('#tpl').html());
+    $('#beanBtn').trigger('click');
+  });
 });
 
 //将定义属性的数组转换为字符串
@@ -193,13 +208,12 @@ function contactString(modelJson, mainArr, childrenArr, className, classComment,
   let str = '';
 
   //拼接js文件头
-  jsHead = '/**\n' +
+  let jsHead = '/**\n' +
     '*' + classComment + '表单js文件\n' +
     '*created by ruixin on ' + (new Date()).Format('yyyy-MM-dd') + '.\n' +
     '*/\n\n' +
     '//流程相关变量声明\n' +
     'var sort = GetQueryString("sort");  //流程环节\n' +
-    'var rwid = GetQueryString("rwid");  //任务id\n' +
     'var wid = GetQueryString("wid");    //工作流id\n' +
     'var sid = GetQueryString("sid");    //环节页面关系实例id\n' +
     'var lookflg = GetQueryString("lookflg"); //可编辑标志\n' +
@@ -211,6 +225,7 @@ function contactString(modelJson, mainArr, childrenArr, className, classComment,
     'var status = GetQueryString("Wstatus");  //流程状态\n' +
     'var edit = GetQueryString("edit"); //页面是否可保存\n' +
     'var lcid = GetQueryString("lcid"); //工作流流程id\n' +
+    'var rwid = GetQueryString("rwid");  //任务id\n' +
     'var path = GetQueryString("path");  //生成的word的文件名（非路径，路径在后端拼接添加）\n\n' +
     '//' + classComment + '的DetailModel对象实例\n' +
     'var model' + className + ' = {};\n\n' +
@@ -236,27 +251,58 @@ function contactString(modelJson, mainArr, childrenArr, className, classComment,
   modelJson += '\n};\n\n';
 
   let ModelName = 'Model' + className;
+  let relationStr = (relations != null && relations.length > 0
+    ? ',\n' +
+    'relations: [\n' +
+    relations + '\n' +
+    ']'
+    : '');
   let relationToMain = '//创建主model对象\n' +
     'let ' + ModelName + ' = DetailModel.extend({\n' +
     'className: "' + ModelName + '",\n' +
     'initJson: ' + ModelName + 'Json,\n' +
-    'stateJson: stateJson,\n' +
-    'relations: [\n' +
-    relations + '\n' +
-    ']\n' +
-    '});\n\n';
+    'stateJson: stateJson' +
+    relationStr +
+    '\n});\n\n';
   // console.log(modelJson);
 
+  //拼接请求数据的字符串
+  let modelObj = className.toLowerCase();
+  let getData = '//获取' + className + '的数据，并赋值给' + modelObj + '\n' +
+    'var ' + modelObj + ' = {};\n' +
+    'if (id) {  //直接请求获取' + className + '实体中的数据\n' +
+    '$.ajax({\n' +
+    'type: "get",\n' +
+    'url: "/ruin/get' + className + '?id=" + id + "&random=" + Math.random(),\n' +
+    'async: false,\n' +
+    'success: function (ar) {\n' +
+    'if (ar.success) {\n' +
+    modelObj + ' = ar.data;\n' +
+    '} else {\n' +
+    'top.layer.alert(ar.msg);\n' +
+    '}\n' +
+    '}\n' +
+    '});\n' +
+    '} else {  //请求获取页面的初始化数据\n' +
+    '$.ajax({\n' +
+    'type: "get",\n' +
+    'url: "/ruixin/getNew' + className + '?ruixin=" + ruixin + "&random=" + Math.random(),\n' +
+    'async: false,\n' +
+    'success: function (ar) {\n' +
+    'if (ar.success) {\n' +
+    modelObj + ' = ar.data;\n' +
+    '} else {\n' +
+    'top.layer.alert(ar.msg);\n' +
+    '}\n' +
+    '}\n' +
+    '});\n' +
+    '}\n\n\n';
 
+  //拼接尾部的保存和删除方法
   let modelName = 'model' + className;
-  //将所有的字符串拼接------------------------------
-  str += jsHead;  //拼接表头
-  str += stateStr;  //拼接状态控制的字符串
-  str += modelJson;  //拼接ModelJson字符串
-  str += modelChildren;  //拼接从Model对象的声明
-  str += relationToMain;  //拼接主Model对象
-  //拼接保存、删除方法
-  str += '});\n\n' +
+  let tailJs = '//将' + modelName + '中的数据渲染到表单页面\n' +
+    modelName + '.render();\n\n' +
+    '});\n\n' +
     '//保存验证\n' +
     'function checkSheetSave() {\n' +
     'var checkflg = false;\n' +
@@ -307,6 +353,16 @@ function contactString(modelJson, mainArr, childrenArr, className, classComment,
     'return delResult;\n' +
     '}\n\n';
 
+
+  //将所有的字符串拼接------------------------------
+  str += jsHead;  //拼接表头
+  str += stateStr;  //拼接状态控制的字符串
+  str += modelJson;  //拼接ModelJson字符串
+  str += modelChildren;  //拼接从Model对象的声明
+  str += relationToMain;  //拼接主Model对象
+  str += getData;  //拼接获取数据的字符串
+  str += tailJs;  //拼接保存、删除方法
+
   $('#json').val(str);
 }
 
@@ -332,3 +388,18 @@ Date.prototype.Format = function (fmt) { //author: meizz
     if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
   return fmt;
 };
+
+/**
+ * 回车事件
+ * @param fn
+ */
+function regEnter(fn) {
+  document.onkeydown = function (event) {
+    var e = event || window.event || arguments.callee.caller.arguments[0];
+    if (e && e.keyCode == 13) { // enter 键
+      if (!$('span.pControl input[type="text"]').is(":focus"))
+        fn();
+      return false;
+    }
+  };
+}
