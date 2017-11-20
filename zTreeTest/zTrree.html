@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    <TITLE> ZTREE DEMO </TITLE>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="../zTree_v3/css/zTreeStyle/zTreeStyle.css" type="text/css">
+    <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../zTree_v3/js/jquery.ztree.all.min.js"></script>
+    <!--
+      <script type="text/javascript" src="jquery.ztree.excheck.js"></script>
+      <script type="text/javascript" src="jquery.ztree.exedit.js"></script>
+    -->
+    <SCRIPT type="text/javascript">
+        var zTreeObj,
+            setting = {
+                view: {
+                    selectedMulti: false
+                }
+            },
+            zTreeNodes = [];
+
+        $(document).ready(function () {
+            zTreeNodes = data;
+            zTreeObj = $.fn.zTree.init($("#tree"), setting, zTreeNodes);
+            var zTreeObj2 = $.fn.zTree.getZTreeObj('tree');
+            console.log(JSON.stringify(zTreeObj, null, 2));
+        });
+        //        zTreeNodes = [
+        //            {
+        //                "name": "网站导航", open: true, children: [
+        //                {"name": "google", "url": "http://g.cn", "target": "_blank"},
+        //                {"name": "baidu", "url": "http://baidu.com", "target": "_blank"},
+        //                {"name": "sina", "url": "http://www.sina.com.cn", "target": "_blank"}
+        //            ]
+        //            }
+        //        ];
+    </SCRIPT>
+</HEAD>
+
+<BODY>
+<ul id="tree" class="ztree" style="width:230px; overflow:auto;"></ul>
+<script type="text/javascript" src="zTreeJson.js"></script>
+</BODY>
+</HTML>
+

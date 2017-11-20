@@ -1,0 +1,351 @@
+{
+  "setting": {
+    "treeId": "tree",
+    "treeObj": {
+      "0": {
+        "jQuery321025124089050824861": {
+          "events": {
+            "selectstart": [
+              {
+                "type": "selectstart",
+                "origType": "selectstart",
+                "data": null,
+                "guid": 1,
+                "namespace": ""
+              }
+            ],
+            "click": [
+              {
+                "type": "click",
+                "origType": "click",
+                "data": {
+                  "treeId": "tree"
+                },
+                "guid": 2,
+                "selector": null,
+                "needsContext": null,
+                "namespace": ""
+              }
+            ],
+            "dblclick": [
+              {
+                "type": "dblclick",
+                "origType": "dblclick",
+                "data": {
+                  "treeId": "tree"
+                },
+                "guid": 2,
+                "selector": null,
+                "needsContext": null,
+                "namespace": ""
+              }
+            ],
+            "mouseover": [
+              {
+                "type": "mouseover",
+                "origType": "mouseover",
+                "data": {
+                  "treeId": "tree"
+                },
+                "guid": 2,
+                "selector": null,
+                "needsContext": null,
+                "namespace": ""
+              }
+            ],
+            "mouseout": [
+              {
+                "type": "mouseout",
+                "origType": "mouseout",
+                "data": {
+                  "treeId": "tree"
+                },
+                "guid": 2,
+                "selector": null,
+                "needsContext": null,
+                "namespace": ""
+              }
+            ],
+            "mousedown": [
+              {
+                "type": "mousedown",
+                "origType": "mousedown",
+                "data": {
+                  "treeId": "tree"
+                },
+                "guid": 2,
+                "selector": null,
+                "needsContext": null,
+                "namespace": ""
+              }
+            ],
+            "mouseup": [
+              {
+                "type": "mouseup",
+                "origType": "mouseup",
+                "data": {
+                  "treeId": "tree"
+                },
+                "guid": 2,
+                "selector": null,
+                "needsContext": null,
+                "namespace": ""
+              }
+            ],
+            "contextmenu": [
+              {
+                "type": "contextmenu",
+                "origType": "contextmenu",
+                "data": {
+                  "treeId": "tree"
+                },
+                "guid": 2,
+                "selector": null,
+                "needsContext": null,
+                "namespace": ""
+              }
+            ],
+            "ztree_nodeCreated": [
+              {
+                "type": "ztree_nodeCreated",
+                "origType": "ztree_nodeCreated",
+                "data": null,
+                "guid": 3,
+                "namespace": ""
+              }
+            ],
+            "ztree_click": [
+              {
+                "type": "ztree_click",
+                "origType": "ztree_click",
+                "data": null,
+                "guid": 4,
+                "namespace": ""
+              }
+            ],
+            "ztree_expand": [
+              {
+                "type": "ztree_expand",
+                "origType": "ztree_expand",
+                "data": null,
+                "guid": 5,
+                "namespace": ""
+              }
+            ],
+            "ztree_collapse": [
+              {
+                "type": "ztree_collapse",
+                "origType": "ztree_collapse",
+                "data": null,
+                "guid": 6,
+                "namespace": ""
+              }
+            ],
+            "ztree_async_success": [
+              {
+                "type": "ztree_async_success",
+                "origType": "ztree_async_success",
+                "data": null,
+                "guid": 7,
+                "namespace": ""
+              }
+            ],
+            "ztree_async_error": [
+              {
+                "type": "ztree_async_error",
+                "origType": "ztree_async_error",
+                "data": null,
+                "guid": 8,
+                "namespace": ""
+              }
+            ],
+            "ztree_remove": [
+              {
+                "type": "ztree_remove",
+                "origType": "ztree_remove",
+                "data": null,
+                "guid": 9,
+                "namespace": ""
+              }
+            ],
+            "ztree_selected": [
+              {
+                "type": "ztree_selected",
+                "origType": "ztree_selected",
+                "data": null,
+                "guid": 10,
+                "namespace": ""
+              }
+            ],
+            "ztree_unselected": [
+              {
+                "type": "ztree_unselected",
+                "origType": "ztree_unselected",
+                "data": null,
+                "guid": 11,
+                "namespace": ""
+              }
+            ],
+            "ztree_check": [
+              {
+                "type": "ztree_check",
+                "origType": "ztree_check",
+                "data": null,
+                "guid": 12,
+                "namespace": ""
+              }
+            ],
+            "ztree_rename": [
+              {
+                "type": "ztree_rename",
+                "origType": "ztree_rename",
+                "data": null,
+                "guid": 13,
+                "namespace": ""
+              }
+            ],
+            "ztree_drag": [
+              {
+                "type": "ztree_drag",
+                "origType": "ztree_drag",
+                "data": null,
+                "guid": 14,
+                "namespace": ""
+              }
+            ],
+            "ztree_dragmove": [
+              {
+                "type": "ztree_dragmove",
+                "origType": "ztree_dragmove",
+                "data": null,
+                "guid": 15,
+                "namespace": ""
+              }
+            ],
+            "ztree_drop": [
+              {
+                "type": "ztree_drop",
+                "origType": "ztree_drop",
+                "data": null,
+                "guid": 16,
+                "namespace": ""
+              }
+            ]
+          }
+        }
+      },
+      "length": 1
+    },
+    "view": {
+      "addDiyDom": null,
+      "autoCancelSelected": true,
+      "dblClickExpand": true,
+      "expandSpeed": "fast",
+      "fontCss": {},
+      "nameIsHTML": false,
+      "selectedMulti": false,
+      "showIcon": true,
+      "showLine": true,
+      "showTitle": true,
+      "txtSelectedEnable": false,
+      "addHoverDom": null,
+      "removeHoverDom": null
+    },
+    "data": {
+      "key": {
+        "children": "children",
+        "name": "name",
+        "title": "",
+        "url": "url",
+        "icon": "icon",
+        "checked": "checked"
+      },
+      "simpleData": {
+        "enable": false,
+        "idKey": "id",
+        "pIdKey": "pId",
+        "rootPId": null
+      },
+      "keep": {
+        "parent": false,
+        "leaf": false
+      }
+    },
+    "async": {
+      "enable": false,
+      "contentType": "application/x-www-form-urlencoded",
+      "type": "post",
+      "dataType": "text",
+      "url": "",
+      "autoParam": [],
+      "otherParam": [],
+      "dataFilter": null
+    },
+    "callback": {
+      "beforeAsync": null,
+      "beforeClick": null,
+      "beforeDblClick": null,
+      "beforeRightClick": null,
+      "beforeMouseDown": null,
+      "beforeMouseUp": null,
+      "beforeExpand": null,
+      "beforeCollapse": null,
+      "beforeRemove": null,
+      "onAsyncError": null,
+      "onAsyncSuccess": null,
+      "onNodeCreated": null,
+      "onClick": null,
+      "onDblClick": null,
+      "onRightClick": null,
+      "onMouseDown": null,
+      "onMouseUp": null,
+      "onExpand": null,
+      "onCollapse": null,
+      "onRemove": null,
+      "beforeCheck": null,
+      "onCheck": null,
+      "beforeDrag": null,
+      "beforeDragOpen": null,
+      "beforeDrop": null,
+      "beforeEditName": null,
+      "beforeRename": null,
+      "onDrag": null,
+      "onDragMove": null,
+      "onDrop": null,
+      "onRename": null
+    },
+    "check": {
+      "enable": false,
+      "autoCheckTrigger": false,
+      "chkStyle": "checkbox",
+      "nocheckInherit": false,
+      "chkDisabledInherit": false,
+      "radioType": "level",
+      "chkboxType": {
+        "Y": "ps",
+        "N": "ps"
+      }
+    },
+    "edit": {
+      "enable": false,
+      "editNameSelectAll": false,
+      "showRemoveBtn": true,
+      "showRenameBtn": true,
+      "removeTitle": "remove",
+      "renameTitle": "rename",
+      "drag": {
+        "autoExpandTrigger": false,
+        "isCopy": true,
+        "isMove": true,
+        "prev": true,
+        "next": true,
+        "inner": true,
+        "minMoveSize": 5,
+        "borderMax": 10,
+        "borderMin": -5,
+        "maxShowNodeNum": 5,
+        "autoOpenTime": 500
+      }
+    }
+  }
+}

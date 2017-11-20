@@ -15,7 +15,6 @@
       <root url="jar://E:/jar/commons-lang3-3.1.jar!/" />
       <root url="jar://E:/jar/ooxml-schemas-1.1.jar!/" />
     </CLASSES>
-    <JAVADOC />
     <SOURCES />
   </library>
 </component>
