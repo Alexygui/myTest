@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43b3e298-bb69-44db-a127-716ba0deb928" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTreeTest/temp.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTreeTest/zTreeJson.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zTreeTest/zTrree.html" />
@@ -9,6 +10,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/underscore_myTest.js" afterPath="$PROJECT_DIR$/test1/underscore_myTest.js" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaToJs/Main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaToJs/javaToJs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaToJs/jquery-3.2.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/poi_3_15.xml" afterPath="$PROJECT_DIR$/.idea/libraries/poi_3_15.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,24 +38,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="219">
+<<<<<<< HEAD
       <file leaf-file-name="zTrree.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zTreeTest/zTrree.html">
+=======
+<<<<<<< Updated upstream
+      <file leaf-file-name="underscore-1.8.3.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/underscore-1.8.3.js">
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
               <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="javaToJs.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javaToJs/javaToJs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="temp.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zTreeTest/temp.json">
+=======
+<<<<<<< Updated upstream
+      <file leaf-file-name="underscore_myTest.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test1/underscore_myTest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="673">
+              <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_Test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test1/_Test.html">
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
               <folding />
+=======
+      <file leaf-file-name="Main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaToJs/Main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-766">
+              <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+              <folding>
+                <marker date="1510973349063" expanded="true" signature="1265:1289" ph="{...}" />
+              </folding>
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -57,11 +106,45 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+<<<<<<< HEAD
         <option value="package_json" />
         <option value="JavaScript File" />
+=======
+        <option value="CSS File" />
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
+=======
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>m</find>
+      <find>mai</find>
+      <find>main</find>
+      <find>main.</find>
+      <find>main.c</find>
+      <find>main.cs</find>
+      <find>main.css</find>
+      <find>.</find>
+      <find>.form</find>
+      <find>.form</find>
+      <find>.form t</find>
+      <find>.form tr</find>
+      <find>.form tr</find>
+      <find>.form tr td</find>
+      <find>.bform tr td</find>
+      <find>.boform tr td</find>
+      <find>.boxform tr td</find>
+      <find>.boxform</find>
+      <find>.boxform</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/../rebuild_jweq_不修改</dir>
+      <dir>$PROJECT_DIR$/../rebuild_jweq_不修改/jweq.web/web/medias/css</dir>
+    </dirStrings>
+  </component>
+>>>>>>> Stashed changes
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -73,10 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/functions.html" />
-        <option value="$PROJECT_DIR$/functions/functions.html" />
-        <option value="$PROJECT_DIR$/xcjdjcJl/xcjdjcJl.html" />
-        <option value="$PROJECT_DIR$/test2/index.html" />
         <option value="$PROJECT_DIR$/POI_Word/POI_Test.java" />
         <option value="$PROJECT_DIR$/POI_Test/src/POI_Test.java" />
         <option value="$PROJECT_DIR$/Main.css" />
@@ -111,14 +190,36 @@
         <option value="$PROJECT_DIR$/test1/csv.js" />
         <option value="$PROJECT_DIR$/test1/iframe.html" />
         <option value="$PROJECT_DIR$/test1/iframe1.html" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/js/underscore-1.8.3.js" />
         <option value="$PROJECT_DIR$/test1/_Test.html" />
         <option value="$PROJECT_DIR$/test1/underscore_myTest.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/leetCode/657. Judge Route Circle.js" />
         <option value="$PROJECT_DIR$/zTreeTest/package.json" />
         <option value="$PROJECT_DIR$/zTreeTest/zTreeJson.js" />
         <option value="$PROJECT_DIR$/zTreeTest/temp.json" />
         <option value="$PROJECT_DIR$/zTreeTest/zTrree.html" />
+=======
+=======
+        <option value="$PROJECT_DIR$/react-demos-practise/demo01/index.html" />
+        <option value="$PROJECT_DIR$/react-demos-practise/demo02/index.html" />
+        <option value="$PROJECT_DIR$/react-demos-practise/demo03/index.html" />
+        <option value="$PROJECT_DIR$/react-demos-practise/demo04/index.html" />
+        <option value="$PROJECT_DIR$/react-demos-practise/demo05/index.html" />
+        <option value="$PROJECT_DIR$/react-demos-practise/demo06/index.html" />
+        <option value="$PROJECT_DIR$/react-demos-practise/build/react.js" />
+        <option value="$PROJECT_DIR$/react-demos/demo07/index2.html" />
+        <option value="$PROJECT_DIR$/react-demos/demo08/index2.html" />
+        <option value="$PROJECT_DIR$/react-demos/demo09/index2.html" />
+        <option value="$PROJECT_DIR$/react-demos/demo10/index2.html" />
+        <option value="$PROJECT_DIR$/react-demos/demo11/index2.html" />
+        <option value="$PROJECT_DIR$/react-demos/demo07/index.html" />
+        <option value="$PROJECT_DIR$/react-demos/demo12/index2.html" />
+        <option value="$PROJECT_DIR$/javaToJs/Main.css" />
+        <option value="$PROJECT_DIR$/javaToJs/javaToJs.html" />
+>>>>>>> Stashed changes
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
       </list>
     </option>
   </component>
@@ -161,6 +262,7 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
+<<<<<<< HEAD
           <expand>
             <path>
               <item name="myTest" type="b2602c69:ProjectViewProjectNode" />
@@ -173,6 +275,46 @@
             </path>
           </expand>
           <select />
+=======
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+<<<<<<< Updated upstream
+              <option name="myItemId" value="myTest" />
+=======
+              <option name="myItemId" value="test" />
+>>>>>>> Stashed changes
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaToJs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -182,22 +324,28 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rebuild_jweq_不修改/jweq.web/web/medias/css" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="findjar.last.used.dir" value="E:/jar" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+<<<<<<< HEAD
+=======
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\test\functions" />
+<<<<<<< HEAD
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ruixin.net\git\myTest\js" />
@@ -205,6 +353,15 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/todos/Backbone.js Todos_files" />
       <recent name="F:\ruixin.net\test\js" />
+=======
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/javaToJs" />
+      <recent name="$PROJECT_DIR$/react-demos/demo12" />
+      <recent name="$PROJECT_DIR$/react-demos/demo11" />
+      <recent name="$PROJECT_DIR$/react-demos/demo10" />
+      <recent name="$PROJECT_DIR$/react-demos/demo08" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -220,7 +377,11 @@
     </option>
   </component>
   <component name="RunManager">
+<<<<<<< HEAD
     <configuration name="POI_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+=======
+    <configuration default="false" name="POI_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="POI_Test" />
       <option name="VM_PARAMETERS" />
@@ -234,6 +395,7 @@
       <module name="POI_Word" />
       <envs />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -241,6 +403,14 @@
       <tasks />
       <arguments />
       <envs />
+=======
+<<<<<<< Updated upstream
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
@@ -378,89 +548,18 @@
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+=======
+    <configuration default="false" name="ooxml-schemas-1.0.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+>>>>>>> Stashed changes
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/POI_Test/ooxml-schemas-1.0.jar" />
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
@@ -507,50 +606,41 @@
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
-      <patterns />
+=======
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
       <method />
     </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="test" />
-      <envs />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
       <option name="filePath" />
+<<<<<<< HEAD
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
       <option name="programParameters" />
@@ -626,6 +716,8 @@
       <envs />
       <properties />
       <listeners />
+=======
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -635,23 +727,33 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
+<<<<<<< HEAD
     <configuration name="ooxml-schemas-1.0.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="JAR_PATH" value="$PROJECT_DIR$/POI_Test/ooxml-schemas-1.0.jar" />
       <envs />
     </configuration>
+=======
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -690,8 +792,10 @@
       <workItem from="1493890473747" duration="1454000" />
       <workItem from="1493942483102" duration="308000" />
       <workItem from="1500559698052" duration="2730000" />
+<<<<<<< Updated upstream
       <workItem from="1501164694635" duration="36670000" />
       <workItem from="1506756691282" duration="7127000" />
+<<<<<<< HEAD
       <workItem from="1506764715313" duration="653000" />
       <workItem from="1507509106399" duration="26000" />
       <workItem from="1507509840807" duration="3016000" />
@@ -700,23 +804,66 @@
       <workItem from="1510718045189" duration="36000" />
       <workItem from="1510718113635" duration="3344000" />
       <workItem from="1510793336796" duration="665000" />
+=======
+      <workItem from="1506764715313" duration="338000" />
+=======
+      <workItem from="1501164694635" duration="37865000" />
+      <workItem from="1506234283405" duration="7255000" />
+      <workItem from="1506244623380" duration="5910000" />
+      <workItem from="1506440311512" duration="800000" />
+      <workItem from="1507906461558" duration="3000" />
+      <workItem from="1510972355354" duration="1000000" />
+>>>>>>> Stashed changes
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="142985000" />
+=======
+<<<<<<< Updated upstream
+    <option name="totallyTimeSpent" value="132933000" />
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
   </component>
   <component name="ToolWindowManager">
     <frame x="74" y="-8" width="1854" height="1096" extended-state="0" />
     <editor active="true" />
+=======
+    <option name="totallyTimeSpent" value="141631000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
+>>>>>>> Stashed changes
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18777533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18745595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< Updated upstream
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41734862" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41734862" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61865795" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -727,20 +874,34 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277849" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277849" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -777,7 +938,11 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
+<<<<<<< HEAD
     <option name="version" value="1" />
+=======
+    <option name="processedProjectFiles" value="true" />
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -801,6 +966,69 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/echarts/pics/111.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/echarts/pics/lingxing.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/echarts/pics/yellowBoy.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery-3.2.1.min.js" />
+    <entry file="file://$PROJECT_DIR$/jquery-3.2.1.js" />
+    <entry file="file://$PROJECT_DIR$/js/jquery-3.2.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/echarts/jdykZljdccTj.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/underscore-min-1.8.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/require-2.3.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/require-min-2.3.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/backbone-min-1.3.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6455">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
     <entry file="file://$PROJECT_DIR$/echarts/echartsTest3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -853,26 +1081,51 @@
     <entry file="file://$PROJECT_DIR$/test1/operator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
+<<<<<<< HEAD
           <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+=======
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+=======
+    <entry file="file://$PROJECT_DIR$/test1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+>>>>>>> Stashed changes
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test1/operator.html">
+    <entry file="file://$PROJECT_DIR$/test1/csv.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="145">
+<<<<<<< HEAD
           <caret line="5" column="76" lean-forward="false" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
+=======
+          <caret line="5" column="76" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
+=======
+        <state relative-caret-position="261">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+>>>>>>> Stashed changes
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+    <entry file="file://$PROJECT_DIR$/test1/jquery-1.8.3.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="251">
           <caret line="735" column="0" lean-forward="false" selection-start-line="735" selection-start-column="0" selection-end-line="735" selection-end-column="0" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test1/templateTest.html">
+    <entry file="file://$PROJECT_DIR$/test1/iframe1.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="628">
           <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
         </state>
@@ -956,21 +1209,127 @@
     <entry file="file://$PROJECT_DIR$/todos/Backbone.js Todos_files/underscore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-595">
+<<<<<<< HEAD
           <caret line="364" column="2" lean-forward="false" selection-start-line="364" selection-start-column="2" selection-end-line="364" selection-end-column="2" />
+=======
+          <caret line="364" column="2" selection-start-line="364" selection-start-column="2" selection-end-line="364" selection-end-column="2" />
+=======
+        <state relative-caret-position="319">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todos/Backbone.js Todos_files/todos.js">
+    <entry file="file://$PROJECT_DIR$/test1/iframe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="58" column="32" lean-forward="false" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+        <state relative-caret-position="522">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backbone/docs/js/jquery.lazyload.js">
+    <entry file="file://$PROJECT_DIR$/react-demos-practise/demo01/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo01/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos-practise/demo02/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo02/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos-practise/build/react-dom.js" />
+    <entry file="file://$PROJECT_DIR$/react-demos-practise/build/browser.min.js" />
+    <entry file="file://$PROJECT_DIR$/react-demos-practise/demo03/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo03/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos-practise/demo04/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo04/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos-practise/demo05/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo05/index.html" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMEvents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-demos-practise/build/react-with-addons.js" />
+    <entry file="file://$PROJECT_DIR$/react-demos-practise/build/react-0.13.4.js" />
+    <entry file="file://$PROJECT_DIR$/react-demos-practise/demo06/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo06/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos-practise/build/react.js" />
+    <entry file="file://$PROJECT_DIR$/react-demos-practise/demo07/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo07/index2.html" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/react.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="371" column="36" lean-forward="false" selection-start-line="371" selection-start-column="36" selection-end-line="371" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-demos/demo08/index2.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos/README.md" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo09/index2.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo10/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo09/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo08/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo07/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo10/index2.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo11/index2.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo11/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos/build/react.js" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo13/server.js" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo13/app.js" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo13/README.md" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo12/index2.html" />
+    <entry file="file://$PROJECT_DIR$/react-demos/demo12/index.html" />
+    <entry file="file://$PROJECT_DIR$/test1/underscoreTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-348">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/underscore-1.8.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rebuild_jweq_不修改/out/artifacts/jweq/WEB-INF/content/rygl/zccgtsxx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="7" column="63" lean-forward="true" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+>>>>>>> Stashed changes
+          <folding />
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rebuild_jweq_不修改/jweq.web/web/medias/css/Main.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="380">
+<<<<<<< HEAD
+          <caret line="58" column="32" lean-forward="false" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+=======
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+=======
+        <state relative-caret-position="216">
+          <caret line="194" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="444" selection-end-column="0" />
+          <folding>
+            <marker date="1496741530000" expanded="true" signature="1046:1070" ph="{...}" />
+          </folding>
+>>>>>>> Stashed changes
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1/underscoreTest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+<<<<<<< HEAD
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+<<<<<<< Updated upstream
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
         </state>
       </provider>
     </entry>
@@ -991,12 +1350,29 @@
     <entry file="file://$PROJECT_DIR$/backbone/examples/todos/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+<<<<<<< HEAD
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backbone/examples/todos/todos.js">
+    <entry file="file://$PROJECT_DIR$/javaToJs/jquery-1.8.3.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaToJs/jquery-3.2.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="203">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
@@ -1005,19 +1381,41 @@
     <entry file="file://$PROJECT_DIR$/mapTdt/mapTdt.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
+<<<<<<< HEAD
           <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+=======
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> Stashed changes
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mapTdt/mapTdt.js">
+    <entry file="file://$PROJECT_DIR$/javaToJs/Main.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="232">
+<<<<<<< HEAD
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+=======
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+=======
+        <state relative-caret-position="-766">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <marker date="1510973349063" expanded="true" signature="1265:1289" ph="{...}" />
+          </folding>
+>>>>>>> Stashed changes
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test1/index.html">
+    <entry file="file://$PROJECT_DIR$/javaToJs/javaToJs.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="290">
           <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
@@ -1123,6 +1521,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test1/underscore_myTest.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="879">
           <caret line="65" column="6" lean-forward="false" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
         </state>
@@ -1139,6 +1538,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+=======
+        <state relative-caret-position="673">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+=======
+        <state relative-caret-position="145">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+>>>>>>> Stashed changes
+>>>>>>> 937b8aea1b6d91583f3f1bfc2e4804c2251e11f1
           <folding />
         </state>
       </provider>
