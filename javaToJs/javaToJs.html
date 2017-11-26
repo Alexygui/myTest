@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
-  <!--<link rel="stylesheet" href="Main.css"/>-->
+  <link rel="stylesheet" href="Main.css"/>
   <script src="jquery-3.2.1.min.js"></script>
   <script src="javaTosJs.js"></script>
   <style type="text/css">
@@ -906,6 +906,131 @@
       <div id="content">
         <div id="config" >
             <h1 id="configTitle"></h1>
+            <table class="form" width="100%">
+              <colgroup>
+                <col width="30%">
+                <col width="70%">
+              </colgroup>
+
+              <tr>
+                <th colspan="2">搜索配置项</th>
+              </tr>
+
+              <tr>
+                <th>tagName</th>
+                <td>
+                  <label>
+                    <input type="text" class="TextBox" placeholder="searchView用，作为字段的中文显示。"/>
+                  </label>
+                </td>
+              </tr>
+
+              <tr>
+                <th>canClear:</th>
+                <td>
+                  <label><input type="radio" class="radio" name="canClear" checked="checked" value="0"/>不开启</label>
+                  <label><input type="radio" class="radio" name="canClear" value="1"/>开启：可被清空成defaultValue或“”</label>
+                </td>
+              </tr>
+
+              <tr>
+                <th colspan="2">表单页面配置项</th>
+              </tr>
+
+              <tr id="disabled" >
+                <th>是否禁用</th>
+                <td>
+                  <label><input type="radio" class="radio" name="disabled" value="0"/>禁用</label>
+                  <label><input type="radio" class="radio" name="disabled" value="1" checked="checked"/>可用</label>
+                </td>
+              </tr>
+
+              <tr>
+                <th>是否显示</th>
+                <td>
+                  <label><input type="radio" class="radio" name="display" checked="checked" value="0"/>显示</label>
+                  <label><input type="radio" class="radio" name="display" value="1"/>隐藏</label>
+                </td>
+              </tr>
+
+              <tr>
+                <th>宽度</th>
+                <td><label><input type="text" class="TextBox" placeholder="可不填，默认为空字符串"/></label></td>
+              </tr>
+
+              <tr>
+                <th>默认值</th>
+                <td>
+                  <label><input type="text" class="TextBox" placeholder="默认值，不设置则为null，否则为具体值"/></label>
+                </td>
+              </tr>
+
+              <tr>
+                <th>最大长度</th>
+                <td>
+                  <label><input type="text" class="TextBox" placeholder="最大长度，不设置则为null，否则为具体数字"/></label>
+                </td>
+              </tr>
+
+              <tr>
+                <th>changeFunc</th>
+                <td>
+                  <label>
+                    <input type="text" class="TextBox" placeholder="后置接口名称，当字段值变更时触发该处注册的方法。该处填写为字符串方法名"/>
+                  </label>
+                </td>
+              </tr>
+
+              <tr>
+                <th>当字段被禁用时，是否开启spanshow</th>
+                <td>
+                  <label><input type="radio" class="radio" name="spanshow" checked="checked" value="0"/>开启</label>
+                  <label><input type="radio" class="radio" name="spanshow" value="1"/>不开启</label>
+                </td>
+              </tr>
+
+              <tr>
+                <th>ifForm</th>
+                <td>
+                  <label><input type="radio" class="radio" name="ifForm" checked="checked" value="0"/>提交</label>
+                  <label><input type="radio" class="radio" name="ifForm" value="1"/>不提交</label>
+                </td>
+              </tr>
+
+              <tr>
+                <th>验证规则：rules</th>
+                <td>
+                  <label>输入验证:
+                  <select class="selectT">
+                    <option></option>
+                  </select></label>
+                  <label>失焦验证:<select class="selectT">
+                  <option></option>
+                  </select></label>
+                  <label>保存验证:<select class="selectT">
+                    <option></option>
+                  </select></label>
+                </td>
+              </tr>
+
+              <tr>
+                <th>类型</th>
+                <td>
+                  <label>
+                    <select class="selectT">
+                      <option title="normal" value="normal">normal(默认)</option>
+                      <option title="dict" value="dict">dict</option>
+                      <option title="date" value="date">date</option>
+                      <option title="layer" value="layer">layer</option>
+                      <option title="file" value="file">file</option>
+                      <option title="img" value="img">img</option>
+                    </select>
+                  </label>
+                </td>
+              </tr>
+
+
+            </table>
         </div>
       </div>
       <div id="right_side">
